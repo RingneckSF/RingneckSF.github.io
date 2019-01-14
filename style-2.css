@@ -1,28 +1,19 @@
-
-.container{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-img{
-	width:600px;
-	height: 500px
-}
-.btn-primary{
-	background-color: rgb(127, 72, 140) ;
-}
-.btn-primary:hover{
-	background-color:rgb(175, 180, 67) ;
-}
-body{
+body,
+html {
   width: 100%;
   height: 100%;
-  background-image: url(rawpixel-609023-unsplash.jpg);
-  background-size: cover;
 }
-
+.btn-primary{
+	background-color: rgba(193, 88, 10,.75);
+}
+.btn-primary:hover{
+	background-color: black;
+}
+.jumbotron{
+	background-color: rgba(193, 88, 10,.75);
+}
 body {
-  font-family: 'Poppins', sans-serif;
-  color: rgb(45,2,56);
-	}
+	background-image: url(IMG_2543.jpg);
+	background-size: cover;
+    font-family: 'Georgia', serif;
+}
